@@ -35,5 +35,10 @@ def get_english_meaning(file_path, emoticon)
   obj = load_library(file_path)
   obj.each{|k,v|
     value_obj = v
+    value_obj.each{|key,val|
+      
+      if key == emoticon
+        return val
+    }
   }
 end
