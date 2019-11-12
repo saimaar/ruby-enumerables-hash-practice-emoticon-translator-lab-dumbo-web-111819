@@ -5,7 +5,7 @@ def load_library(file_path)
  japanese_icon = {}
  emoticons.each{|k,v|
    icon_of_jap = v[1]
-    icon_of_eng = v[0]
+   icon_of_eng = v[0]
    japanese_icon[icon_of_jap] = k
  }
  new_hash ={
