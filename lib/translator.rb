@@ -20,7 +20,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   obj = load_library(file_path)
   obj.each{|k,v|
-  obj[k][v][emoticon]
+ p obj[k][v][emoticon]
   
   }
 end
