@@ -2,7 +2,6 @@ require 'yaml'
 
 def load_library(file_path)
  emoticons = YAML.load_file(file_path)
- p emoticons
  japanese_icon = {}
  emoticons.each{|k,v|
    icon_of_jap = v[1]
