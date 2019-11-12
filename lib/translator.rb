@@ -6,6 +6,7 @@ def load_library(file_path)
  japanese_icon = {}
  emoticons.each{|k,v|
    icon_of_jap = v[1]
+   p k
   
    japanese_icon[icon_of_jap] = {}
  }
