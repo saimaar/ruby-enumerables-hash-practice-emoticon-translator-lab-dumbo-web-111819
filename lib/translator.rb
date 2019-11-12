@@ -8,7 +8,7 @@ def load_library(file_path)
    japanese_icon << icon_of_jap
  }
  new_hash ={
-   :get_meaning => japanese_icon, 
+   :get_meaning => {:jap_icons => japanese_icon}, 
    :get_emoticon => emoticons
  }
 end
