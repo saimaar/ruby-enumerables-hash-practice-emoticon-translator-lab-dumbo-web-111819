@@ -23,7 +23,8 @@ def get_japanese_emoticon(file_path, emoticon)
   value_obj = v 
   value_obj.each{|key,value|
     
-    p key
+    if key == emoticon
+      return value
   }
   }
 end
