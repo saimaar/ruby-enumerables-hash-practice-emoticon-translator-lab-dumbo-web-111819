@@ -34,6 +34,6 @@ end
 def get_english_meaning(file_path, emoticon)
   obj = load_library(file_path)
   obj.each{|k,v|
-    value_obj
+    value_obj = v
   }
 end
