@@ -39,6 +39,7 @@ def get_english_meaning(file_path, emoticon)
       
       if key == emoticon
         return val
+      end 
     }
   }
 end
