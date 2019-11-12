@@ -4,7 +4,7 @@ def load_library(file_path)
  emoticons = YAML.load_file(file_path)
  japanese_icon = []
  emoticons.each{|k,v|
-   array_of_jap = v[1]
+   icon_of_jap = v[1]
    japanese_icon << array_of_jap
  }
  new_hash ={
