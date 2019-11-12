@@ -24,11 +24,11 @@ def get_japanese_emoticon(file_path, emoticon)
     value_obj.each{|key,value|
     
       if key == emoticon
-        p value
         return value
       end 
     }
   }
+  return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning
