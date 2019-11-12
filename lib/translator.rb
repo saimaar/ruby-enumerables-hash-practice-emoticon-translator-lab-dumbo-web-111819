@@ -9,7 +9,7 @@ def load_library(file_path)
    icon_of_jap = v[1]
    icon_of_eng = v[0]
    japanese_icon[icon_of_jap] = k
-   english_emoticons[icon_of_eng] = {}
+   english_icon[icon_of_eng] = {}
  }
  new_hash ={
    :get_meaning => japanese_icon,
