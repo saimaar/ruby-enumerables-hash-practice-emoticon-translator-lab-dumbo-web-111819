@@ -25,7 +25,6 @@ def get_japanese_emoticon(file_path, emoticon)
     
       if key == emoticon
         return value
-      
       end 
     }
   }
