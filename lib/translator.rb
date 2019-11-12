@@ -13,7 +13,7 @@ def load_library(file_path)
  }
  new_hash ={
    :get_meaning => japanese_icon,
-   :get_emoticon => emoticons
+   :get_emoticon => english_emoticons
  }
 end
 
