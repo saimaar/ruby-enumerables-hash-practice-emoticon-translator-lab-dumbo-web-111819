@@ -3,7 +3,7 @@ require 'yaml'
 def load_library(file_path)
  emoticons = YAML.load_file(file_path)
  emoticons.each{|k,v|
-   array_of_icons = v
+   array_of_icons = v[1]
    p array_of_icons
  }
  new_hash ={
