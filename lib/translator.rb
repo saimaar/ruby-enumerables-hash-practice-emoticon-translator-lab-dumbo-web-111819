@@ -5,11 +5,12 @@ def load_library(file_path)
  japanese_icon = {}
  emoticons.each{|k,v|
    icon_of_jap = v[1]
+  
    japanese_icon[icon_of_jap] = {}
  }
  new_hash ={
    :get_meaning => japanese_icon 
-   :get_emoticon => emoticons
+   :get_emoticon => 
  }
 end
 
